@@ -30,7 +30,7 @@ pipeline {
                 echo "$my_Name" 
                 echo "$my_No"
                 echo "$artifact_passwd"
-                echo "$firstname"
+//                 echo "$firstname"
                 
             }
         }
