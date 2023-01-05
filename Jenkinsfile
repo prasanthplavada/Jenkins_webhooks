@@ -6,7 +6,7 @@ pipeline {
     }
     parameters {
         booleanParam(name:'Boolean_Test',defaultValue:'true',description:'test boolean')
-        string(name: 'firstname')
+        
     }
     stages {
         stage('Predefined Variable') {
@@ -31,8 +31,7 @@ pipeline {
                 echo "$my_Name" 
                 echo "$my_No"
                 echo "$artifact_passwd"
-                echo "$firstname"
-                
+                              
             }
         }
         
