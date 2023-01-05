@@ -6,7 +6,7 @@ pipeline {
     }
     parameters {
         booleanParam(name:'Boolean_Test',defaultValue:'true',description:'test boolean')
-        stringParam(name: 'firstname')
+        string(name: 'firstname')
     }
     stages {
         stage('Predefined Variable') {
